@@ -1,0 +1,441 @@
+{
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "workbench.colorCustomizations": {
+        "editorMultiCursor.secondary.foreground": "#a63a82",
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "soyLanguageServer.excludePaths": [
+        "/templates/**/*"
+    ],
+    "editor.minimap.enabled": false,
+    "emmet.syntaxProfiles": {
+        "html": {
+            "filters": "bem"
+        }
+    },
+    "emmet.includeLanguages": {
+        "soy": "html"
+    },
+    "emmet.preferences": {
+        "bem.elementSeparator": "-",
+        "bem.modifierSeparator": "--",
+        "bem.shortElementPrefix": "-",
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "stripe.cliInstallPath": "/usr/local/bin/brew",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "debug.javascript.autoAttachFilter": "disabled",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "Abyss",
+    "svg.preview.mode": "svg",
+    "editor.indentSize": 2,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "calva.prettyPrintingOptions": {
+        "printEngine": "pprint",
+        "enabled": true,
+        "width": 120,
+        "maxLength": 50
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "modalkeys.keybindings": {
+        "::doc::h": {
+            "kind": "select",
+            "label": "←",
+            "detail": "move left"
+        },
+        "::doc::j": {
+            "kind": "select",
+            "label": "↓",
+            "detail": "move down"
+        },
+        "::doc::k": {
+            "kind": "select",
+            "label": "↑",
+            "detail": "move up"
+        },
+        "::doc::l": {
+            "kind": "select",
+            "label": "→",
+            "detail": "move right"
+        },
+        "::doc::g": {
+            "kind": "leader",
+            "label": "actions (mostly)",
+            "detail": "additional commands (mostly actions)"
+        },
+        "::doc::gj": {
+            "kind": "select",
+            "label": "unwrp ↓",
+            "detail": "Down unwrapped line"
+        },
+        "::doc::gk": {
+            "kind": "select",
+            "label": "unwrp ↑",
+            "detail": "Up unwrapped line"
+        },
+        "::using::cursorMove::": {
+            "h": {
+                "to": "left",
+                "select": "__mode !== 'normal'",
+                "value": "__count"
+            },
+            "j": {
+                "to": "down",
+                "by": "wrappedLine",
+                "select": "__mode !== 'normal'",
+                "value": "__count"
+            },
+            "k": {
+                "to": "up",
+                "by": "wrappedLine",
+                "select": "__mode !== 'normal'",
+                "value": "__count"
+            },
+            "l": {
+                "to": "right",
+                "select": "__mode !== 'normal'",
+                "value": "__count"
+            },
+            "gj": {
+                "to": "down",
+                "by": "line",
+                "select": "__mode !== 'normal'",
+                "value": "__count"
+            },
+            "gk": {
+                "to": "up",
+                "by": "line",
+                "select": "__mode !== 'normal'",
+                "value": "__count"
+            }
+        },
+        "::doc::gt": {
+            "kind": "window",
+            "label": "tab →",
+            "detail": "show next editor tab"
+        },
+        "gt": "workbench.action.nextEditor",
+        "::doc::gT": {
+            "kind": "window",
+            "label": "tab ←",
+            "detail": "show previous editor tab"
+        },
+        "gT": "workbench.action.previousEditor",
+        "::doc::i": {
+            "kind": "mode",
+            "label": "insert",
+            "detail": "Switch to insert mode"
+        },
+        "i": [
+            "modalkeys.cancelMultipleSelections",
+            "modalkeys.enterInsert"
+        ],
+        "::doc::I": {
+            "kind": "mode",
+            "label": "insert start",
+            "detail": "Switch to insert mode, moving cursor to start of line"
+        },
+        "I": [
+            {
+                "cursorMove": {
+                    "to": "wrappedLineFirstNonWhitespaceCharacter",
+                    "select": false
+                }
+            },
+            "modalkeys.enterInsert"
+        ],
+        "::doc::a": {
+            "kind": "mode",
+            "label": "append",
+            "detail": "Switch to insert mode, moving cursor to end of current character"
+        },
+        "a": [
+            "modalkeys.cancelMultipleSelections",
+            {
+                "if": "__char != ''",
+                "then": "cursorRight"
+            },
+            "modalkeys.enterInsert"
+        ],
+        "::doc::A": {
+            "kind": "mode",
+            "label": "append eol",
+            "detail": "Switch to insert mode, moving cursor to end of line"
+        },
+        "A": [
+            {
+                "cursorMove": {
+                    "to": "wrappedLineEnd",
+                    "select": false
+                }
+            },
+            "modalkeys.enterInsert"
+        ],
+        "::doc::o": {
+            "kind": "mode",
+            "label": "open below",
+            "detail": "open a line below current line and enter insert"
+        },
+        "o": [
+            "editor.action.insertLineAfter",
+            "modalkeys.enterInsert"
+        ],
+        "O": [
+            "editor.action.insertLineBefore",
+            "modalkeys.enterInsert"
+        ],
+        "::doc::gO": {
+            "kind": "action",
+            "label": "open above",
+            "detail": "open a line above current line"
+        },
+        "::doc::gg": {
+            "kind": "select",
+            "label": "doc start"
+        },
+        "gg": "cursorTopSelect",
+        "::doc::gG": {
+            "kind": "select",
+            "label": "doc end"
+        },
+        "gG": "cursorBottomSelect",
+        "::doc::>": {
+            "kind": "action",
+            "label": "indent",
+            "detail": "Indent lines"
+        },
+        ">": "editor.action.indentLines",
+        "::doc::<": {
+            "kind": "action",
+            "label": "deindent",
+            "detail": "Deindent lines"
+        },
+        "<": "editor.action.outdentLines",
+        "::doc::visual::d": {
+            "kind": "action",
+            "label": "delete",
+            "detail": "Delete selection and save to paste buffer"
+        },
+        "visual::d": [
+            "editor.action.clipboardCutAction",
+            {
+                "modalkeys.enterMode": {
+                    "mode": "normal"
+                }
+            }
+        ],
+        "visual::c": [
+            "deleteRight",
+            "modalkeys.enterInsert"
+        ],
+        "::doc::e": {
+            "kind": "select",
+            "label": "word end →",
+            "detail": "next word end"
+        },
+        "::doc::b": {
+            "kind": "select",
+            "label": "word end ←",
+            "detail": "previous word end"
+        },
+        "::using::selection-utilities.moveBy": {
+            "e": {
+                "unit": "word",
+                "boundary": "end",
+                "select": true,
+                "value": " (__count || 1)"
+            },
+            "b": {
+                "unit": "word",
+                "boundary": "start",
+                "select": true,
+                "value": " -(__count || 1)"
+            }
+        },
+        "::doc::;": {
+            "kind": "modifier",
+            "label": "clear",
+            "detail": "Clear the current selection"
+        },
+        ";": "modalkeys.cancelMultipleSelections",
+        "::doc::mm": {
+            "kind": "select",
+            "label": "smart expand",
+            "detail": "Use VSCode's built-in smart expansion command"
+        },
+        "mm": "editor.action.smartSelect.expand",
+        "::doc::D": {
+            "kind": "select",
+            "label": "delete line",
+            "detail": "delete line"
+        },
+        "D": [
+            "expandLineSelection",
+            "editor.action.clipboardCutAction"
+        ],
+        "::doc::f": {
+            "kind": "select",
+            "label": "find char",
+            "detail": "To next char (include char in selection)"
+        },
+        "f": {
+            "modalkeys.search": {
+                "caseSensitive": true,
+                "acceptAfter": 1,
+                "backwards": false,
+                "selectTillMatch": true,
+                "wrapAround": true
+            }
+        },
+        "::doc::C": {
+            "kind": "mode",
+            "label": "change to eol",
+            "detail": "Delete all text from here to end of line, and switch to insert mode"
+        },
+        "C": {
+            "if": "!__count",
+            "then": [
+                "modalkeys.cancelMultipleSelections",
+                "deleteAllRight",
+                "modalkeys.enterInsert"
+            ],
+            "else": [
+                "modalkeys.cancelMultipleSelections",
+                "modalkeys.enableSelection",
+                {
+                    "cursorMove": {
+                        "to": "up",
+                        "by": "wrappedLine",
+                        "select": true,
+                        "value": "__count"
+                    }
+                },
+                "expandLineSelection",
+                [
+                    "deleteRight",
+                    "editor.actions.insertLineBefore",
+                    "modalkeys.enterInsert"
+                ]
+            ]
+        },
+        "::doc::P": {
+            "kind": "action",
+            "label": "paste before",
+            "detail": "Paste the next before the cursor/selection"
+        },
+        "P": "editor.action.clipboardPasteAction",
+        "::doc::[": {
+            "kind": "select",
+            "label": "in parens",
+            "detail": "text inside parents/brackets/braces"
+        },
+        "[": [
+            {
+                "if": "!__selection.isEmpty",
+                "then": [
+                    "selection-utilities.activeAtStart",
+                    {
+                        "cursorMove": {
+                            "to": "left",
+                            "select": true,
+                            "value": 2
+                        }
+                    },
+                    "selection-utilities.activeAtEnd",
+                    {
+                        "cursorMove": {
+                            "to": "right",
+                            "select": true,
+                            "value": 2
+                        }
+                    }
+                ]
+            },
+            {
+                "editor.action.selectToBracket": {
+                    "selectBrackets": false
+                }
+            }
+        ],
+        "::doc::'": {
+            "kind": "select",
+            "label": "in quotes",
+            "detail": "text within current quotes"
+        },
+        "'": "bracketeer.selectQuotesContent"
+    },
+    "modalkeys.docKinds": [
+        {
+            "name": "select",
+            "description": "Select commands move the cursor and/or selections."
+        }
+    ],
+    "modalkeys.colorBlindDocs": false,
+    "modalkeys.userPresetsFolder": "/Users/bhaines/.config/modalKeys",
+    "selection-utilities-motionUnits": [
+        {
+            "name": "WORD",
+            "regex": "[^\\s]+"
+        },
+        {
+            "name": "word",
+            "regex": "(_*[\\p{L}][_\\p{L}0-9]*)|(_+)|([0-9][0-9.]*)|((?<=[\\s\\r\\n])[^\\p{L}^\\s]+(?=[\\s\\r\\n]))"
+        },
+        {
+            "name": "subword",
+            "regex": "(_*[\\p{L}][0-9\\p{Ll}]+_*)|(_+)|(\\p{Lu}[\\p{Lu}0-9]+_*(?!\\p{Ll}))|(\\p{L})|([^\\p{L}^\\s^0-9])|([0-9][0-9.]*)"
+        },
+        {
+            "name": "paragraph",
+            "regexs": "\\S+"
+        },
+        {
+            "name": "section",
+            "regexs": [
+                ".+",
+                "^.*========+.*$"
+            ]
+        },
+        {
+            "name": "subsection",
+            "regexs": [
+                ".+",
+                "^.*(========+|--------+).*$"
+            ]
+        }
+    ],
+    "vscode_custom_css.imports": [
+        "file:///Users/bhaines/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    "apc.imports": [
+        "file:///Users/bhaines/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    "animations.CursorAnimation": true,
+    "animations.Install-Method": "Apc Customize UI++",
+    "window.zoomLevel": 2,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "cody.codebase": "https://gerrit.yext.com/alpha",
+    "modalkeys.validModes": [
+        "insert",
+        "normal",
+        "surround",
+        "search"
+    ],
+    "terminal.integrated.defaultProfile.osx": "zsh",
+}

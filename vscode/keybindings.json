@@ -1,0 +1,2417 @@
+// Place your key bindings in this file to override the defaultsauto
+[
+
+    // AUTOMATED BINDINGS START: ModalKey Bindings 
+    //
+    // These bindings were automatically inserted by the ModalKeys extension from the
+    // following file: 
+    //
+    // `file:///Users/bhaines/repo/vscode-modal-keys/presets/ben`
+    //
+    // Leave this comment (and the one denoting the end) unmodified to ensure the automated
+    // bindings are properly updated if/when you insert another preset. Add any additional
+    // bindings you want *outside* of the automated bindings region as it will be modified
+    // when new presets are imported.
+
+    // ignore: this key does nothing
+    {
+        "key": "`",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "1",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "2",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "3",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "4",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "5",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "6",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "7",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "8",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "9",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "0",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "-",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "=",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "q",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "w",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "e",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "r",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "t",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "y",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "u",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "i",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "o",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "p",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "[",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "]",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "\\",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "a",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "s",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "d",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "f",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "g",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "h",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "j",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "k",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "l",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": ";",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "'",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "z",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "x",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "c",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "v",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "b",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "n",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "m",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": ",",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": ".",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "/",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+`",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+1",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+2",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+3",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+4",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+5",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+6",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+7",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+8",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+9",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+0",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+-",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+=",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+q",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+w",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+e",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+r",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+t",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+y",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+u",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+i",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+o",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+p",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+[",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+]",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+\\",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+a",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+s",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+d",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+f",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+g",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+h",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+j",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+k",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+l",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+;",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+'",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+z",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+x",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+c",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+v",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+b",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+n",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+m",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+,",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+.",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // ignore: this key does nothing
+    {
+        "key": "shift+/",
+        "when": "(editorTextFocus && !findWidgetVisible) && (((modalkeys.mode != 'insert')) && ((modalkeys.mode != 'search')))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.ignore"
+            }
+        }
+    },
+
+    // delete: Without a count: delete selected text (and store to clipboard). With a 
+    // count, delete up to the next `count` lines and store to clipboard.
+
+    {
+        "key": "d",
+        "when": "(editorTextFocus) && (!editorHasSelection) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "editor.action.clipboardCutAction"
+        }
+    },
+
+    // delete: Without a count: delete selected text (and store to clipboard). With a 
+    // count, delete up to the next `count` lines and store to clipboard.
+
+    {
+        "key": "d",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.clipboardCutAction",
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+
+    {
+        "key": "c",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.clipboardCutAction",
+                "modalkeys.enterInsert"
+            ]
+        }
+    },
+
+    // yank: yank selected text, or line if there's no selection
+    {
+        "key": "y",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.clipboardCopyAction",
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+
+    {
+        "key": "shift+,",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.outdentLines"
+            ]
+        }
+    },
+
+
+    {
+        "key": "shift+.",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.indentLines"
+            ]
+        }
+    },
+
+
+    {
+        "key": "i",
+        "when": "(editorTextFocus) && (editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "selection-utilities.shrinkToActive",
+                "modalkeys.enterInsert",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+    // $ and insert: move cursor to the end of the current line(s) and enter insert mode
+    {
+        "key": "shift+a",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "expandLineSelection",
+                "editor.action.insertCursorAtEndOfEachLineSelected",
+                "modalkeys.enterInsert",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+
+    {
+        "key": "shift+i",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "expandLineSelection",
+                "editor.action.insertCursorAtEndOfEachLineSelected",
+                {
+                    "command": "cursorMove",
+                    "args": {
+                        "to": "wrappedLineFirstNonWhitespaceCharacter"
+                    }
+                },
+                "modalkeys.enterInsert",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+
+    {
+        "key": "o",
+        "when": "(editorTextFocus) && (editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.insertLineAfter",
+                "modalkeys.enterInsert"
+            ]
+        }
+    },
+
+
+    {
+        "key": "shift+o",
+        "when": "(editorTextFocus) && (editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "editor.action.insertLineBefore",
+                "modalkeys.enterInsert"
+            ]
+        }
+    },
+
+    // Enter surround mode: change surrounding characters
+    {
+        "key": "s",
+        "when": "(editorTextFocus) && (!editorHasSelection) && (((modalkeys.mode == 'normal'))) && ((modalkeys.prefix == 'c'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.enterMode",
+                "args": {
+                    "mode": "surround"
+                }
+            }
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                {
+                    "command": "modalkeys.prefix",
+                    "args": {
+                        "key": "'"
+                    }
+                }
+            ],
+            "resetTransient": false
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "shift+'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                {
+                    "command": "modalkeys.prefix",
+                    "args": {
+                        "key": "shift+'"
+                    }
+                }
+            ],
+            "resetTransient": false
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "[",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                {
+                    "command": "modalkeys.prefix",
+                    "args": {
+                        "key": "["
+                    }
+                }
+            ],
+            "resetTransient": false
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && ((modalkeys.prefix =~ /^'$/))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "bracketeer.selectQuotesContent",
+                {
+                    "command": "selection-utilities.deleteAround",
+                    "args": {
+                        "count": 1
+                    }
+                },
+                {
+                    "command": "selection-utilities.insertAround",
+                    "args": {
+                        "before": "'",
+                        "after": "'"
+                    }
+                },
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && ((modalkeys.prefix =~ /^shift\\+'$/))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "bracketeer.selectQuotesContent",
+                {
+                    "command": "selection-utilities.deleteAround",
+                    "args": {
+                        "count": 1
+                    }
+                },
+                {
+                    "command": "selection-utilities.insertAround",
+                    "args": {
+                        "before": "'",
+                        "after": "'"
+                    }
+                },
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && ((modalkeys.prefix == '['))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "bracketeer.selectBracketContent",
+                {
+                    "command": "selection-utilities.deleteAround",
+                    "args": {
+                        "count": 1
+                    }
+                },
+                {
+                    "command": "selection-utilities.insertAround",
+                    "args": {
+                        "before": "'",
+                        "after": "'"
+                    }
+                },
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "shift+'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && ((modalkeys.prefix =~ /^'$/))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "bracketeer.selectQuotesContent",
+                {
+                    "command": "selection-utilities.deleteAround",
+                    "args": {
+                        "count": 1
+                    }
+                },
+                {
+                    "command": "selection-utilities.insertAround",
+                    "args": {
+                        "before": "\"",
+                        "after": "\""
+                    }
+                },
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "shift+'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && ((modalkeys.prefix =~ /^shift\\+'$/))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "bracketeer.selectQuotesContent",
+                {
+                    "command": "selection-utilities.deleteAround",
+                    "args": {
+                        "count": 1
+                    }
+                },
+                {
+                    "command": "selection-utilities.insertAround",
+                    "args": {
+                        "before": "\"",
+                        "after": "\""
+                    }
+                },
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+    // change surround: change surround
+    {
+        "key": "shift+'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'surround'))) && ((modalkeys.prefix == '['))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "bracketeer.selectBracketContent",
+                {
+                    "command": "selection-utilities.deleteAround",
+                    "args": {
+                        "count": 1
+                    }
+                },
+                {
+                    "command": "selection-utilities.insertAround",
+                    "args": {
+                        "before": "\"",
+                        "after": "\""
+                    }
+                },
+                "modalkeys.enterNormal"
+            ]
+        }
+    },
+
+    // hold selection: selection commands extend the selection
+
+    {
+        "key": "v",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.set",
+                "args": {
+                    "name": "select_on"
+                },
+                "computedArgs": {
+                    "value": "!select_on"
+                }
+            }
+        }
+    },
+
+    // ←: move left
+    {
+        "key": "h",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "cursorMove",
+                "args": {
+                    "to": "left"
+                },
+                "computedArgs": {
+                    "value": "count",
+                    "select": "select_on"
+                }
+            }
+        }
+    },
+
+    // ←←: move to start of line
+    {
+        "key": "shift+h",
+        "when": "(editorTextFocus) && (modalkeys.select_on) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "cursorHomeSelect"
+        }
+    },
+
+    // ←←: move to start of line
+    {
+        "key": "shift+h",
+        "when": "(editorTextFocus) && (!modalkeys.select_on) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "cursorHome"
+        }
+    },
+
+    // ↓: move down
+    {
+        "key": "j",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "cursorMove",
+                "args": {
+                    "to": "down"
+                },
+                "computedArgs": {
+                    "value": "count",
+                    "select": "select_on"
+                }
+            }
+        }
+    },
+
+    // ↑: move up
+    {
+        "key": "k",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "cursorMove",
+                "args": {
+                    "to": "up"
+                },
+                "computedArgs": {
+                    "value": "count",
+                    "select": "select_on"
+                }
+            }
+        }
+    },
+
+    // →: move right
+    {
+        "key": "l",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "cursorMove",
+                "args": {
+                    "to": "right"
+                },
+                "computedArgs": {
+                    "value": "count",
+                    "select": "select_on"
+                }
+            }
+        }
+    },
+
+    // →→: move to end of line
+    {
+        "key": "shift+l",
+        "when": "(editorTextFocus) && (!modalkeys.select_on) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "cursorEnd"
+        }
+    },
+
+    // →→: move to end of line
+    {
+        "key": "shift+l",
+        "when": "(editorTextFocus) && (modalkeys.select_on) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "cursorEndSelect"
+        }
+    },
+
+    // expand to line: expand selection to full line
+    {
+        "key": "x",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "expandLineSelection",
+                {
+                    "command": "modalkeys.set",
+                    "args": {
+                        "name": "select_on",
+                        "value": true
+                    }
+                }
+            ]
+        }
+    },
+
+
+    {
+        "key": "[",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "bracketeer.selectBracketContent"
+        }
+    },
+
+
+    {
+        "key": "'",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "bracketeer.selectQuotesContent"
+        }
+    },
+
+    // smart expand: Use VSCode's built-in smart expansion command
+    {
+        "key": "u",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && ((modalkeys.prefix == 'u'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "editor.action.smartSelect.expand"
+            }
+        }
+    },
+
+    // select in tag: Select contents of html tag
+    {
+        "key": "shift+,",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && ((modalkeys.prefix == 'u'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "extension.selectInTag"
+            }
+        }
+    },
+
+    // subwrd →: next subword (camel/snake case)
+    {
+        "key": "w",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "subword",
+                    "value": 1
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on"
+                }
+            }
+        }
+    },
+
+    // subwrd end: next subword (camel/snake case) end
+    {
+        "key": "e",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "subword",
+                    "value": 1
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on",
+                    "boundary": "end"
+                }
+            }
+        }
+    },
+
+    // word →: next word
+    {
+        "key": "shift+w",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "word"
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on"
+                }
+            }
+        }
+    },
+
+    // word end: next word end
+    {
+        "key": "shift+e",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "word"
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on",
+                    "boundary": "around_on ? 'both' : 'end'"
+                }
+            }
+        }
+    },
+
+    // subwrd →: next subword (camel/snake case)
+    {
+        "key": "b",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "subword",
+                    "value": -1
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on"
+                }
+            }
+        }
+    },
+
+    // paragraph →: next paragraph
+    {
+        "key": "p",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "paragraph",
+                    "value": 1
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on"
+                }
+            }
+        }
+    },
+
+    // paragraph →: previous paragraph
+    {
+        "key": "shift+p",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.moveBy",
+                "args": {
+                    "boundary": "start",
+                    "unit": "paragraph",
+                    "value": -1
+                },
+                "computedArgs": {
+                    "select": "select_on",
+                    "selectWhole": "!select_on"
+                }
+            }
+        }
+    },
+
+    // search: search forwards
+    {
+        "key": "/",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.search",
+                "args": {
+                    "caseSensitive": true,
+                    "backwards": false,
+                    "selectTillMatch": true,
+                    "wrapAround": true,
+                    "register": "search"
+                }
+            }
+        }
+    },
+
+    // → search: Go to the next match of the search query
+    {
+        "key": "n",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.nextMatch",
+                "args": {
+                    "caseSensitive": true,
+                    "backwards": false,
+                    "selectTillMatch": true,
+                    "wrapAround": true,
+                    "register": "search"
+                }
+            }
+        }
+    },
+
+    // ← search: Go to the previous match of the search query
+    {
+        "key": "shift+n",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.previousMatch",
+                "args": {
+                    "caseSensitive": true,
+                    "backwards": false,
+                    "selectTillMatch": true,
+                    "wrapAround": true,
+                    "register": "search"
+                }
+            }
+        }
+    },
+
+    // find char: Find the next char (include char in selection)
+    {
+        "key": "f",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.search",
+                "args": {
+                    "caseSensitive": true,
+                    "backwards": false,
+                    "selectTillMatch": true,
+                    "wrapAround": true,
+                    "acceptAfter": 1
+                },
+                "computedArgs": {
+                    "skip": "count-1"
+                }
+            }
+        }
+    },
+
+    // find char back: Find the previous char (include char in selection)
+    {
+        "key": "shift+f",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.search",
+                "args": {
+                    "caseSensitive": true,
+                    "backwards": true,
+                    "selectTillMatch": true,
+                    "wrapAround": true,
+                    "acceptAfter": 1
+                },
+                "computedArgs": {
+                    "skip": "count-1"
+                }
+            }
+        }
+    },
+
+    // swap anchors: switches the start and end anchors of current selections
+
+    {
+        "key": "alt+;",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.exchangeAnchorActive"
+            }
+        }
+    },
+
+    // shrink selection: reduce all selections to length zero
+
+    {
+        "key": "r",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "selection-utilities.shrinkToActive",
+                {
+                    "command": "modalkeys.set",
+                    "args": {
+                        "name": "select_on",
+                        "value": false
+                    }
+                }
+            ]
+        }
+    },
+
+    // shrink selection: reduce all selections to length zero
+
+    {
+        "key": "r",
+        "when": "(editorTextFocus) && (!editorHasSelection) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "removeSecondaryCursors"
+        }
+    },
+
+    // create regex: create sub-selections by user input
+    {
+        "key": "c",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 's'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.createByRegex"
+            }
+        }
+    },
+
+    // split regex: Split the current selection by user input
+    {
+        "key": "s",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 's'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.splitByRegex"
+            }
+        }
+    },
+
+    // exclude regex: exclude selections by user input
+    {
+        "key": "x",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 's'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.excludeByRegex"
+            }
+        }
+    },
+
+    // filter regex: filter the current selections by user input
+    {
+        "key": "f",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 's'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.includeByRegex"
+            }
+        }
+    },
+
+    // split \n: Split the current selection on newlines
+    {
+        "key": "enter",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "selection-utilities.splitByNewline"
+            }
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "0",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "1",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "2",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "3",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "4",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "5",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "6",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "7",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "8",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // Update number with {key}
+    {
+        "key": "9",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.updateCount",
+                "args": {
+                    "value": "{key}"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+    // tab →: show next editor tab
+
+    {
+        "key": "t",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 'g'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "workbench.action.nextEditor"
+        }
+    },
+
+    // tab ←: show previous editor tab
+
+    {
+        "key": "shift+t",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 'g'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "workbench.action.previousEditor"
+        }
+    },
+
+    // start of file: move cursor to start of file
+
+    {
+        "key": "g",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 'g'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "cursorTopSelect"
+        }
+    },
+
+    // end of file: move cursor to end of file
+
+    {
+        "key": "e",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && ((modalkeys.prefix == 'g'))",
+        "command": "modalkeys.do",
+        "args": {
+            "do": "cursorBottomSelect"
+        }
+    },
+
+    // normal: Enter normal mode
+    {
+        "key": "escape",
+        "when": "(editorTextFocus && !findWidgetVisible) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "modalkeys.enterNormal",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+    // normal: Enter normal mode
+    {
+        "key": "ctrl+[",
+        "when": "(editorTextFocus && !findWidgetVisible) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "modalkeys.enterNormal",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+    // normal: Enter normal mode
+    {
+        "key": "escape",
+        "when": "(suggestWidgetVisible && textInputFocus) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "modalkeys.enterNormal",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+    // normal: Enter normal mode
+    {
+        "key": "ctrl+[",
+        "when": "(suggestWidgetVisible && textInputFocus) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": [
+                "modalkeys.enterNormal",
+                "modalkeys.reset"
+            ]
+        }
+    },
+
+
+    {
+        "key": "c",
+        "when": "(editorTextFocus) && (!editorHasSelection) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.prefix",
+                "args": {
+                    "key": "c"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+
+    {
+        "key": "u",
+        "when": "(editorTextFocus) && (((modalkeys.mode == 'normal'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.prefix",
+                "args": {
+                    "key": "u"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+
+    {
+        "key": "s",
+        "when": "(editorTextFocus) && (editorHasSelection) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.prefix",
+                "args": {
+                    "key": "s"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+
+    {
+        "key": "g",
+        "when": "(editorTextFocus) && (((modalkeys.mode != 'insert'))) && (modalkeys.prefix == '')",
+        "command": "modalkeys.do",
+        "args": {
+            "do": {
+                "command": "modalkeys.prefix",
+                "args": {
+                    "key": "g"
+                }
+            },
+            "resetTransient": false
+        }
+    },
+
+
+    // AUTOMATED BINDINGS END: ModalKey Bindings
+
+    // Leave this comment (and the one denoting the start) unmodified to ensure the
+    // automated bindings are properly updated if/when you insert another preset
+
+    {
+        "key": "shift+cmd+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "-workbench.action.terminal.focusTabs",
+        "when": "terminalFocus && terminalProcessSupported || terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "inSearchEditor || searchViewletFocus"
+    }
+]
